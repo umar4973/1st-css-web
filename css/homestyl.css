@@ -1,0 +1,245 @@
+/* css reset */
+body {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(116, 153, 81);
+    /* background: url("../web_images/homepage_bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2800px;
+  }
+  .header{
+   
+    background-color: #212820;
+    overflow: hidden;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0px;
+    
+   
+  }
+  .left {
+    
+    /* logo div properties */
+    display: inline-block;
+    position: absolute;
+    margin-left: 41px;
+    margin-top: -3px;
+
+    /* top: 0px;
+    left: 0px; 
+    border: 1px red solid; */
+    
+  }
+
+  .left a img{
+    /* logo image size */
+    width: 60px;
+  }
+
+  .mid {
+
+    /* mid div navbar properties */
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px rgb(9, 255, 0) solid; */
+  }
+  .right {
+   /* right div navbar other elements properties  */
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-top: 15px;
+     /* border: 1px rgb(217, 255, 0) solid; */
+  }
+  .btn {
+    margin: 0px 9px;
+    padding: 4px 12px;
+    border: rgb(224, 248, 186) solid 1px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+  }
+  .btn:hover{
+
+    background-color: black;
+    color: blanchedalmond;
+
+  }
+  .navbar li {
+    display: inline;
+  }
+  .navbar li a {
+      text-decoration: none;
+      font-size: 20px;
+      padding: 35px 25px;
+  }
+  .navbar li a:hover {
+      
+      text-decoration:underline;
+      color: rgb(228, 142, 31);
+  }
+
+  .navbar li a:active {
+      color: rgb(255, 255, 255) !important;
+      
+  }
+  .active {
+      color: rgb(6, 180, 151) ;
+      
+  }
+
+  .container{
+    border: 2px solid red;
+    display: block;
+    width: 30%;
+    margin: 75px 57px;
+    padding: 46px;
+    border-radius: 10px;
+  }
+  .loginform input{
+
+    padding: 3px 25px;
+    margin: 8px 12px;
+    border: 1px solid red;
+    border-radius: 10px;
+
+  }
+  .loginform input:hover{
+      background-color: rgba(192, 235, 34, 0)
+
+  }
+  .loginform button{
+    margin: 10px 14px ;
+    padding: 9px 17px;
+    display: block;
+    
+  }
+
+  .columndiv{
+    /* border: solid 2px red; */
+    margin: 20px;
+    overflow: hidden;
+    color:rgb(228, 142, 31);
+  }
+
+  .rightcol{
+    /* border: solid 1px red; */
+    margin: 20px;
+    float: right;
+    width: 20%;
+    
+  }
+
+  
+
+  .leftcol{
+    /* border: solid 1px red; */
+    margin: 20px;
+    float: left;
+    width: 20%;
+  }
+
+  .centrecol{
+    /* border: solid 1px red; */
+    margin: 20px;
+    margin-top: 38px;
+    
+  }
+  .content{
+    /* border: solid 2px red; */
+    margin: 20px;
+   float: right;
+   width: 40%;
+   margin-top: 50px;
+   margin-right: 50px;
+   
+  }
+
+  .divfixed{
+    border: solid 1px red;
+    position: fixed;
+    width: 50%;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .divrealativ{
+    border: solid 1px red;
+    color: blanchedalmond;
+    position: relative;
+    bottom: 0px;
+    /* overflow: hidden; */
+    padding-bottom: 40px;
+    z-index: -1;
+  }
+
+  .divabs{
+    border: solid 1px rgb(0, 255, 34);
+    position: absolute;
+    right: 0px;
+    top: 20px;
+  }
+
+  .flexbox{
+    background-color: blanchedalmond;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  }
+
+  .flexbox >div{
+   
+    
+background-color: rgb(132, 209, 30);
+margin: 10px;
+  }
+
+  .otherflexbox{
+    background-color: blanchedalmond;
+  display: flex;
+  margin-top: 20px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  }
+  .otherflexbox >div{
+background-color: darkblue;
+  }
+
+  .flexother{
+    justify-content: left;
+  }
+
+  .gridflex{
+    display: flex;
+margin: 20px;
+/* padding: 0px 5px; */
+/* flex-wrap: wrap; */
+  }
+
+.gridflex .imgcol{
+  
+  padding: 0px 5px;
+/* flex: 25%; */
+/* max-width: 25%; */
+} 
+
+
+.gridflex .imgcol img {
+  
+  margin-top: 5px;
+  /* vertical-align: middle; */
+  
+  
+} 
+
+* {
+  box-sizing: border-box;
+}
